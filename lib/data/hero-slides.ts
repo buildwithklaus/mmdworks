@@ -17,7 +17,7 @@ export const heroSlides: HeroSlide[] = [
   },
   {
     id: "slide-2",
-    image: "/images/hero/hero2.jpeg",
+    image: "/images/hero/hero22.png",
     eyebrow: "Commercial Construction",
     title: "Spaces Built to Power Business Growth",
     description:
