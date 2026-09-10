@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@source "./app/**/*.{ts,tsx}";
+@source "./components/**/*.{ts,tsx}";
+@source "./lib/**/*.{ts,tsx}";
+
+@theme {
+  /* ---------- Primary: Brand Orange ---------- */
+  --color-primary-50: #FFF1E9;
+  --color-primary-100: #FFDCC7;
+  --color-primary-300: #FF9B5C;
+  --color-primary-400: #F97A3D;
+  --color-primary-500: #F15A24;
+  --color-primary-600: #D9480F;
+  --color-primary-700: #B23A0E;
+  --color-primary-900: #5C1D07;
+
+  /* ---------- Secondary: Brand Black ---------- */
+  --color-secondary-50: #F5F5F5;
+  --color-secondary-100: #E5E5E5;
+  --color-secondary-300: #999999;
+  --color-secondary-400: #4D4D4D;
+  --color-secondary-500: #1A1A1A;
+  --color-secondary-600: #101010;
+  --color-secondary-700: #000000;
+
+  /* ---------- Dark section backgrounds ---------- */
+  --color-charcoal: #161616;
+  --color-charcoal-light: #242424;
+
+  /* ---------- Neutrals ---------- */
+  --color-gray-50: #F8F9FA;
+  --color-gray-100: #F1F3F5;
+  --color-gray-200: #E5E8EB;
+  --color-gray-400: #9AA3AC;
+
+  /* ---------- Fonts ---------- */
+  --font-heading: var(--font-montserrat), sans-serif;
+  --font-body: var(--font-inter), sans-serif;
+
+  /* ---------- Layout ---------- */
+  --container-content: 1440px;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+
+  /* ---------- Shadows ---------- */
+  --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.08);
+  --shadow-card-hover: 0 16px 40px rgba(241, 90, 36, 0.18);
+
+  /* ---------- Animation ---------- */
+  --animate-fadeUp: fadeUp 0.7s ease forwards;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body {
+  @apply font-body text-secondary-500 bg-white antialiased;
+}
