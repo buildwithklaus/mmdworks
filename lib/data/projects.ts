@@ -97,6 +97,8 @@ export const projects: Project[] = [
       "/images/ciala1.jpg",
       "/images/ciala2.jpg",
       "/images/ciala4.jpg",
+      "/images/renders/ciala-render-1.jpg",
+      "/images/renders/ciala-render-2.jpg",
     ],
     location: "Kisumu, Kenya",
     year: 2025,
